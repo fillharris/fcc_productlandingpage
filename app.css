@@ -1,0 +1,101 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap");
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  background-color: #f2e9e4;
+  font-family: "Roboto", sans-serif;
+  color: #22223b;
+  text-decoration: none;
+}
+
+#header {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 5%;
+  background-color: #c9ada7;
+}
+
+.logo {
+  height: 50px;
+  width: 50px;
+  background-color: #c9ada7;
+  cursor: pointer;
+}
+
+.nav-links {
+  list-style: none;
+  background-color: #c9ada7;
+}
+
+.nav-links li {
+  display: inline-block;
+  padding: 0px 15px;
+  background-color: #c9ada7;
+}
+
+.nav-links li a {
+  background-color: #c9ada7;
+  transition: all 0.3s ease 0s;
+}
+.nav-links li a:hover {
+  background-color: #c9ada7;
+  color: #4a4e69;
+}
+
+.tag-line {
+  text-align: center;
+  margin-top: 50px;
+  padding: 30px;
+}
+
+#form {
+  text-align: center;
+}
+
+.email {
+  font-size: 1.5rem;
+}
+
+#submit {
+  margin: 20px;
+  background-color: #c9ada7;
+  cursor: pointer;
+  font-size: 1.5rem;
+  padding: 0.2rem 1rem;
+}
+
+#submit:hover {
+  cursor: pointer;
+  color: #4a4e69;
+}
+
+.video {
+  margin-top: 100px;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+
+@media (max-width: 600px) {
+    #header {
+    flex-wrap: wrap;
+  }
+
+  .foot {
+    margin-top: 100px;
+    height: 30px;
+    padding: 20px;
+    padding-bottom: 40px;
+    width: 100%;
+    display: inline-block;
+    text-align: center;
+    background-color: #c9ada7;
+  }
+
+
